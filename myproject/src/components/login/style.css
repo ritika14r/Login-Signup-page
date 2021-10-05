@@ -1,0 +1,124 @@
+.box{
+    
+    border-radius: 0px;
+    box-shadow:  10px;
+    margin-top: 10px;
+    border-color:white;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color:white;
+    border-style:solid;
+    
+}
+h6{
+    margin-left: 200px;
+}
+img{
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+.base-container{
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+.errorMsg {
+    color: #cc0000;
+    margin-bottom: 5px;
+  }
+
+.header{
+    font-size: 30px;
+    font-family: 'Open Sans',sans-serif;
+    margin-top: 5px;
+    
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+    
+    
+    .form{
+        
+        margin-top: 0em;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+    }
+    .form-group{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width:fit-content;
+    }
+    label{
+        font-size: 20px;
+    }
+    input {
+        margin-top: 3px;
+        min-width: 18em;
+        height: 37px;
+        padding: 0px 0px;
+        font-size: 16px;
+        font-family: 'Open Sans',sans-serif;
+        background-color: #f3f3f3;
+        border: 0px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        transition: all 250ms ease-in-out;
+        box-shadow: 0px 0px 12px 0.8px #76bbe996;
+
+    }
+    .btn:hover{
+        background-color: #2386c8;
+    }
+    .btn:focus{
+        outline: none;
+    }
+    .footer{
+        margin-top:1em;
+    }
+    .text{
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+        margin-right: 3em;
+        margin-left: 5em;
+    }
+    .btn{
+        width: 150px;
+        align-items: center;
+        font-size: 18px;
+        padding: 6px 14px;
+        border:0;
+        background-color:rgb(90, 11, 165);
+        color: #fff;
+        border-radius: 2px;
+        transition: all 250ms ease-in-out;
+        cursor:pointer;
+        margin-bottom: 30px;
+        margin-left: 100px;
+    }
+    .btn:hover{
+        background-color: rgb(205, 170, 240);
+    }
+    .btn:focus{
+        outline: none;
+    }
+    
+
